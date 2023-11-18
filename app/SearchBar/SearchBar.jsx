@@ -28,8 +28,8 @@ export default function SearchBar() {
     }
     return(
         <>
-        <p>The Search Bar!</p>
-        <input type="text" value={searchString} onChange={handleChange} />
+        <p className="SearchBar">The Search Bar!</p>
+        <input className="Search" type="text" value={searchString} onChange={handleChange} />
         <div style={{display:"flex", flexFlow:"row wrap"}} >{filterProducts}</div>
         </>
     )

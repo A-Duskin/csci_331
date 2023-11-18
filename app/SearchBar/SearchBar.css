@@ -1,3 +1,11 @@
+.SearchBar{
+    text-align: center;
+}
+.Search{
+    margin: 0 auto;
+    display: block;
+}
+
 img {
     width: 100px;
 }
